@@ -21,6 +21,10 @@ To install WAF, upload the "**waf-safeness**" folder to your site's root folder 
 
 This repository provides a straightforward and effective way to safeguard your web application from various forms of attacks and maintain its security. We hope it assists you in ensuring the security of your web project.
 
+# Not enough WAF-PHP?
+* Professional protection for websites:
+[https://safeness.su/en/web-protection.html](https://safeness.su/en/web-protection.html)
+
 # Would you like to support me financially?
 * My Bitcoin wallet - *bc1qhn4n70f5f0m00pz8clanwjj30fl9j0j74jxh3u*
 * My USDT (TRC20) wallet - *TUhvUrudtVXiAZ8jiD7TNF4kAMiFPpXahy*
