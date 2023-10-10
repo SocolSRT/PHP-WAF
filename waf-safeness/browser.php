@@ -3,11 +3,11 @@
 //    http_response_code(403);
 //    exit;
 //}
-//$ubm = array("PURGE", "PUT", "OPTIONS", "DELETE", "PATCH", "CONNECT", "TRACE");
-//if (in_array($_SERVER['REQUEST_METHOD'], $ubm)) {
-//    http_response_code(403);
-//    exit;
-//}
+$ubm = array("PURGE", "DELETE", "PATCH", "CONNECT", "TRACE"); // "PUT", "OPTIONS"
+if (in_array($_SERVER['REQUEST_METHOD'], $ubm)) {
+    http_response_code(403);
+    exit;
+}
 if (stripos($_SERVER['HTTP_ACCEPT'], 'application/javascript') !== false) {
     http_response_code(403);
     exit;
