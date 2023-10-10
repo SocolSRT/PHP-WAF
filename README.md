@@ -1,5 +1,7 @@
 # PHP-WAF:
-This repository contains a simple PHP-based Web Application Firewall (WAF) designed to enhance the security of your web application. The WAF is engineered to detect and block suspicious requests and protect against vulnerabilities such as SQL injection and XSS attacks.
+This repository contains a simple PHP-based Web Application Firewall (WAF) designed to enhance the security of your web application. The WAF is engineered to detect and block suspicious requests and protect against vulnerabilities such as SQL injection and XSS attacks. 
+
+Made by [Safeness](https://safeness.su).
 
 # Functions:
 - **bouncer.php:** A module for checking browser integrity and detecting suspicious requests. It utilizes the brlog.txt file (containing records of suspicious requests) and killlog.txt (holding information about blocked requests) from the log directory.
