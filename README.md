@@ -4,11 +4,11 @@ This repository contains a simple PHP-based Web Application Firewall (WAF) desig
 Made by [Safeness](https://safeness.su).
 
 # Functions:
-- **bouncer.php:** A module for checking browser integrity and detecting suspicious requests. It utilizes the brlog.txt file (containing records of suspicious requests) and killlog.txt (holding information about blocked requests) from the log directory.
+- **browser.php:** A module for checking browser integrity and detecting suspicious requests.
 
 - **mlog.php:** A module for logging, aiding in activity monitoring and security analysis.
 
-- **bouncer.php:** A module for blocking requests based on logs and identifying similar suspicious requests.
+- **bouncer.php:** A module for blocking requests based on logs and identifying similar suspicious requests. It utilizes the brlog.txt file (containing records of suspicious requests) and killlog.txt (holding information about blocked requests) from the log directory.
 
 - **waf.php:** The WAF module for implementing rate limiting and protecting against vulnerabilities like SQL injection and XSS attacks. It uses the waf.txt file to check for matches and trigger rules.
 
